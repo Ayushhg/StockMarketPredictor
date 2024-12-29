@@ -1,0 +1,11 @@
+streamlit
+numpy
+pandas
+matplotlib
+scikit-learn
+keras
+tensorflow
+yfinance
+textblob
+newsapi-python
+openpyxl
