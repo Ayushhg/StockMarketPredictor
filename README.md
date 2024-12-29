@@ -17,25 +17,25 @@ The app allows users to input stock symbols, visualize stock price trends, and a
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/stock-market-predictor.git
-Navigate to the project directory:
+2. Navigate to the project directory:
+   ```bash
+   cd stock-market-predictor
+3. Install required dependencies:
+   ```bash
+   pip install -r requirements.txt
 
-bash
-Copy code
-cd stock-market-predictor
-Install required dependencies:
+## Usage
 
-bash
-Copy code
-pip install -r requirements.txt
-Usage
 Run the Streamlit app:
+   ```bash
+   streamlit run app.py
+```
 
-bash
-Copy code
-streamlit run app.py
 Open the app in your browser by navigating to http://localhost:8501.
 
 Input a stock symbol (e.g., "AAPL" for Apple) to retrieve the stock data.
+
+For Indian Stocks, add .NS to the Symbol for Example TATAMOTORS.NS
 
 View the stock price prediction and financial analysis, including charts and metrics like:
 
